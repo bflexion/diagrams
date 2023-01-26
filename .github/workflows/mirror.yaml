@@ -1,0 +1,57 @@
+name: Sync to CodeCommit
+on:
+  push:
+    tags-ignore:
+      - '*'
+    branches:
+      - '**'
+jobs:
+  sync:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-region: eu-west-1
+          role-to-assume: arn:aws:iam::432264360351:role/github-actions
+          role-session-name: github-actions
+      - name: Create repository if it doesn't exist
+        env:
+          AWS_REGION: eu-west-1
+        run: |
+          EXISTING=$(aws codecommit list-repositories | jq '.repositories | .[] | select(.repositoryName == "${{ github.event.repository.name }}")')
+          if [ -z "$EXISTING" ]
+          then
+            aws codecommit create-repository --repository-name "${{ github.event.repository.name }}"
+          fi
+      - name: Sync to CodeCommit
+        env:
+          AWS_REGION: eu-west-1
+        run: |
+          CODECOMMIT_URL="https://git-codecommit.${AWS_REGION}.amazonaws.com/v1/repos/${{ github.event.repository.name }}"
+          git branch -r | grep -v '\->' | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | while read remote
+          do
+            if [ "${remote#origin/}" != "${{ github.ref_name }}" ]
+            then
+              git branch --track "${remote#origin/}" "$remote"
+            fi
+          done
+          git fetch --all
+          git config --global credential.'https://git-codecommit.*.amazonaws.com'.helper '!aws codecommit credential-helper $@'
+          git config --global credential.UseHttpPath true
+          git remote add sync ${CODECOMMIT_URL}
+          git push sync --mirror
+      - name: Set default branch
+        env:
+          AWS_REGION: eu-west-1
+        run: |
+          aws codecommit update-default-branch  --repository-name "${{ github.event.repository.name }}" --default-branch-name "${{ github.event.repository.default_branch }}"
