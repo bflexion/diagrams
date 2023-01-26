@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T12:05:46.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.11" etag="J4KYpWZsYF9Rs39n5sOF" type="github"><diagram name="Page-1" id="FpFkpmieo_2h6X8kuW5g">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-26T12:11:10.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3i5vJqNLOz3RC6GQViwM" version="20.8.11" type="github">
+  <diagram name="Page-1" id="FpFkpmieo_2h6X8kuW5g">
+    <mxGraphModel dx="2522" dy="1415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4UYziS9OrE-1UJ7os7ld-3" value="AWS Account" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="360" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4UYziS9OrE-1UJ7os7ld-1" value="iam_role module" style="fillColor=default;strokeColor=#000000;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" vertex="1" parent="4UYziS9OrE-1UJ7os7ld-3">
+          <mxGeometry x="80" y="80" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="4UYziS9OrE-1UJ7os7ld-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA2NCA2NCIgaGVpZ2h0PSI4MDBweCIgd2lkdGg9IjgwMHB4Ij48cGF0aCBmaWxsPSIjNDA0MEIyIiBkPSJNMzguMDYgMjYuMTUxdjExLjQ3M0w0OCAzMS44OTFWMjAuNDA2bC05Ljk0IDUuNzQ1eiIvPjxwYXRoIGZpbGw9IiM1QzRFRTUiIGQ9Im0yNy4wMyAyMC40MDYgOS45NCA1Ljc0NXYxMS40NzNsLTkuOTQtNS43NFYyMC40MDd6TTE2IDE0djExLjQ3OWw5Ljk0IDUuNzR2LTExLjQ4TDE2IDE0em0xMS4wMyAzMC42MjQgOS45NCA1Ljc0di0xMS40OGwtOS45NC01LjczOXYxMS40OHoiLz48L3N2Zz4=;" vertex="1" parent="4UYziS9OrE-1UJ7os7ld-3">
+          <mxGeometry x="70" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4UYziS9OrE-1UJ7os7ld-5" value="Policy and&lt;br&gt;Attachments" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" vertex="1" parent="4UYziS9OrE-1UJ7os7ld-3">
+          <mxGeometry x="164.11" y="270" width="31.79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4UYziS9OrE-1UJ7os7ld-4" value="IAM Role" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="4UYziS9OrE-1UJ7os7ld-3">
+          <mxGeometry x="150" y="170" width="60" height="33.85" as="geometry" />
+        </mxCell>
+        <mxCell id="4UYziS9OrE-1UJ7os7ld-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="4UYziS9OrE-1UJ7os7ld-3" source="4UYziS9OrE-1UJ7os7ld-5" target="4UYziS9OrE-1UJ7os7ld-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="660" as="sourcePoint" />
+            <mxPoint x="370" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
