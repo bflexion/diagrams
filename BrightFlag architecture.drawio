@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T06:04:09.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kKpEHJK0n1C3gmAnIyGD" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T06:05:11.327Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GSOrL8q2fOFGWWaSraZY" version="24.0.7" type="github">
   <diagram name="Page-1" id="rpXskTdR_856NKPqqqEg">
-    <mxGraphModel dx="1891" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1891" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,7 +201,7 @@
         <mxCell id="hu-sAR_U4PtlPBGoUDsY-67" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="910" y="287.5" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hu-sAR_U4PtlPBGoUDsY-68" value="bflexion-brightflag-api&lt;div&gt;(NPM package)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-68" value="bflexion-office-tools&lt;div&gt;(NPM package)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="885" y="369.5" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
