@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T05:52:26.185Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="BzdCCezgGZNAbNZoMksu" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T06:04:09.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kKpEHJK0n1C3gmAnIyGD" version="24.0.7" type="github">
   <diagram name="Page-1" id="rpXskTdR_856NKPqqqEg">
-    <mxGraphModel dx="2442" dy="2269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1891" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,8 +111,8 @@
             <mxPoint x="750" y="520" as="sourcePoint" />
             <mxPoint x="800" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="820" y="400" />
-              <mxPoint x="-30" y="400" />
+              <mxPoint x="820" y="420" />
+              <mxPoint x="-30" y="420" />
               <mxPoint x="-30" y="328" />
             </Array>
           </mxGeometry>
@@ -122,8 +122,8 @@
             <mxPoint x="830" y="360" as="sourcePoint" />
             <mxPoint x="690" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="860" y="410" />
-              <mxPoint x="-40" y="410" />
+              <mxPoint x="860" y="430" />
+              <mxPoint x="-40" y="430" />
               <mxPoint x="-40" y="224" />
             </Array>
           </mxGeometry>
@@ -155,6 +155,54 @@
             <mxPoint x="640" y="520" as="sourcePoint" />
             <mxPoint x="690" y="470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-49" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="48" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-51" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="48" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-52" value="f" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="33" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-53" value="f" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="272.5" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-54" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="287.5" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-55" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="287.5" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-56" value="bflexion-brightflag-api&lt;div&gt;(NPM package)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-58" value="brightflag-data-loader&lt;div&gt;(scheduled AWS routine)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="145" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-59" value="data-platform-brightflag&lt;div&gt;(SQL and Python data pipeline)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-60" value="yooz-brightflag-api&lt;div&gt;(NPM package)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="255" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-61" value="yooz-data-loader&lt;div&gt;(scheduled AWS routine)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="145" y="255" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-62" value="data-platform-yooz&lt;div&gt;(SQL and Python data pipeline)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="405" y="383.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-63" value="" style="shape=tee;whiteSpace=wrap;html=1;rotation=90;dashed=1;fillColor=none;dx=102;dy=123;" vertex="1" parent="1">
+          <mxGeometry x="519" y="-3" width="320" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-64" value="brightflag-integration&lt;div&gt;(complex multi-part repository)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="620" y="126" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-67" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="287.5" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hu-sAR_U4PtlPBGoUDsY-68" value="bflexion-brightflag-api&lt;div&gt;(NPM package)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="885" y="369.5" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
