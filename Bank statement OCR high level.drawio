@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T09:38:35.086Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.7" etag="JG7FiC8pssIIp6oBiJaG" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-19T09:41:50.460Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kT3weG4ArfNaFZR6TGy2" version="24.4.7" type="github">
   <diagram name="Page-1" id="w_HAns771PBYKvi4xScE">
-    <mxGraphModel>
+    <mxGraphModel dx="2249" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-7" value="Embeds" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1" source="HZw4Jho7LLEHb-JY-HUG-1" target="HZw4Jho7LLEHb-JY-HUG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-1" value="Compass Portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-8" value="Triggers" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1" source="HZw4Jho7LLEHb-JY-HUG-2" target="HZw4Jho7LLEHb-JY-HUG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-2" value="Finance Portal&lt;br&gt;(new for this project)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-9" value="Triggers" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1" source="HZw4Jho7LLEHb-JY-HUG-3" target="HZw4Jho7LLEHb-JY-HUG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-3" value="Bank OCR Data Loader" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-10" value="Updates" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1" source="HZw4Jho7LLEHb-JY-HUG-4" target="HZw4Jho7LLEHb-JY-HUG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-4" value="Bank OCR Data Pipeline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HZw4Jho7LLEHb-JY-HUG-5" value="FINANCE Snowflake Database" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;fontColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="110" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
